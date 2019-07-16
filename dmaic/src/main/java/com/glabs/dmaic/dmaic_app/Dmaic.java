@@ -37,12 +37,7 @@ public class Dmaic implements Serializable
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@GenericGenerator(name = "native", strategy = "native")
 	@Column(name = "dmaic_id")
-	private Long id;
-	
-	
-	
-	
-	
+	private Long id;	
 
 	private String define;
 	
